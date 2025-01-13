@@ -1,0 +1,99 @@
+<!-- Prompt 33:- Create a product launch landing page for a new mobile app with responsive design. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganna - Unlimited Music</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <style>
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #2d033b;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #ff3cac;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body >
+
+    <main class="h-screen bg-gradient-to-b from-[#2d033b] via-[#810ca8] to-[#ff3cac] text-white">
+
+        <nav class="px-10 py-4 flex justify-between items-center fixed w-full z-10 bg-[#2d033b] bg-opacity-70 backdrop-blur-lg">
+            <div class="flex items-center gap-3">
+                <h1 class="text-3xl font-bold text-[#ff3cac]">Ganna</h1>
+            </div>
+
+            <div class="hidden md:flex gap-8 text-lg">
+                <a href="#home" class="hover:text-[#ff3cac] transition">Home</a>
+                <a href="#explore" class="hover:text-[#ff3cac] transition">Explore</a>
+                <a href="#playlists" class="hover:text-[#ff3cac] transition">Playlists</a>
+                <a href="#premium" class="hover:text-[#ff3cac] transition">Premium</a>
+            </div>
+
+            <div class="flex gap-4">
+                <button class="px-5 py-2 border border-[#ff3cac] rounded-full hover:bg-[#ff3cac] hover:text-black transition">
+                    Log In
+                </button>
+                <button class="px-5 py-2 bg-[#ff3cac] text-black rounded-full hover:bg-[#ff69b4] transition">
+                    Sign Up
+                </button>
+            </div>
+        </nav>
+
+        <section class="flex flex-col-reverse md:flex-row items-center justify-between h-screen px-10 md:px-32">
+            <div class="text-center md:text-left md:w-1/2">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+                    Dive into the <span class="text-[#ff3cac]">Sound</span>.<br>
+                    Experience <span class="text-[#ff69b4]">Unlimited</span> Music.
+                </h1>
+                <p class="text-lg text-gray-300 mb-8">
+                    Discover new beats, trending playlists, and exclusive podcasts. Enjoy music offline or online, anytime, anywhere.
+                </p>
+                <div class="flex gap-4 justify-center md:justify-start">
+                    <button class="px-6 py-3 bg-[#ff3cac] text-black text-lg font-semibold rounded-full hover:bg-[#ff69b4] transition">
+                        Get Premium
+                    </button>
+                    <button class="px-6 py-3 border border-gray-300 text-lg font-semibold rounded-full hover:bg-gray-800 transition">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <img src="https://images.unsplash.com/photo-1688728380078-9a5b3ec09d9e?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                     alt="Music Vibes" 
+                     class="rounded-3xl shadow-2xl hover:scale-105 transition duration-500">
+            </div>
+        </section>
+
+        <section class="py-16 bg-[#2d033b]">
+            <div class="text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Get Ganna on Your Device</h2>
+                <p class="text-lg text-gray-300 mb-8">
+                    Download now and start listening to your favorite tracks instantly.
+                </p>
+                <div class="flex justify-center gap-8">
+                    <i class="ri-google-play-line text-6xl hover:scale-105 transition cursor-pointer"></i>
+                    <i class="ri-app-store-line text-6xl h-14 hover:scale-105 transition cursor-pointer"></i>
+                </div>
+            </div>
+            <!-- <div class="box bg-[#1a0027] py-16"></div> -->
+        </section>
+    </main>
+</body>
+
+</html>
